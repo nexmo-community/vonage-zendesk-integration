@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/npm/@zendeskgarden/css-bedrock@7.0.21,npm/@zendeskgarden/css-utilities@4.3.0">
+  <link href="main.css" rel="stylesheet">
+</head>
+<body>
+  
+
+  <div id="content"></div>
+  <button id="initiatesession" class="button" onclick="initializeSession()">Initiate Session</button>
+  <button id="startPublishingVideoId"  class="button" onclick="startPublishingVideo()">Turn on Video </button>
+  <button id="startPublishingScreenId" class="button" onclick="startPublishingScreen()">Share Screen</button>
+  <button id="handleRecording" class="button" onclick="handleRecording()">Start Recording</button>
+  
+  <div id="videos" >
+      
+    <div id="publisher" ></div>
+    <div id="subscriber" ></div>
+ 
+  </div>
+    
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+  <script src="https://static.zdassets.com/zendesk_app_framework_sdk/2.0/zaf_sdk.min.js"></script>
+  <script src="https://static.opentok.com/v2/js/opentok.min.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>

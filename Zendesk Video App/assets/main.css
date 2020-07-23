@@ -1,0 +1,49 @@
+footer {
+  font-size: 10px;
+  padding-top: 20px;
+}
+
+.data {
+  color: #363;
+  padding-left: 6px;
+}
+
+.button {
+  background-color: #008CBA;;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+#content td {
+	font-size: 12px;
+	padding-top: 2px;
+}
+#videos {
+  position: absolute;
+  width: 100%;
+  height: 700px;
+
+  
+}
+
+#subscriber {
+  position: relative;
+
+
+  height: 240px;
+}
+
+#publisher {
+  position: relative;
+
+  height: 240px;
+  
+}

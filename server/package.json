@@ -1,0 +1,24 @@
+{
+  "name": "opentok-archiving-sample",
+  "version": "0.0.0",
+  "description": "Demo of OpenTok API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.695.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "ejs": "^2.6.1",
+    "express": "^3.5.0",
+    "nexmo": "^2.5.1",
+    "node-zendesk": "^1.4.0",
+    "opentok": "^2.9.1",
+    "request": "^2.88.0",
+    "zendesk-node-api": "^1.3.0"
+  }
+}
