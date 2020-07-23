@@ -13,9 +13,7 @@ let video = false;
 $(function() {
   let client = ZAFClient.init();
   client.invoke('resize', { width: '100%', height: '79vh'  });
-  //videos.style.display = 'none';
  
-
   client.get(['ticket.id', 'ticket.requester.id']).then(data => {
     let user_id = data['ticket.requester.id']
     let  ticket_id = data['ticket.id'];
@@ -34,7 +32,6 @@ $(function() {
 
 let handleRecording =() => {
   archiving ? stopArchive() : startArchive();
-  //setRecording( true );
 }
 
 let handleError = (error) => {
