@@ -1,7 +1,7 @@
 {
-  "name": "opentok-archiving-sample",
+  "name": "Vonage Zendesk integration",
   "version": "0.0.0",
-  "description": "Demo of OpenTok API",
+  "description": "Server side",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
