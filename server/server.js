@@ -6,11 +6,7 @@ const router = express.Router();
 const path = require('path');
 const app = express();
 const _ = require('lodash');
-const Nexmo = require('nexmo')
-const request = require ('request')
-const Zendesk = require('zendesk-node-api');
 const ZD = require('node-zendesk');
-const ejs = require('ejs')
 const cors = require('cors');
 const dotenv = require('dotenv')
 dotenv.config();
