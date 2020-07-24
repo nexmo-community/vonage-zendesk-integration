@@ -33,13 +33,11 @@ app.use(bodyParser.urlencoded({
 let ticketId
 
 // Starts the express app
-const init = () => {
+(() => {
   app.listen(8080, function () {
     console.log('You\'re app is now ready at http://localhost:8080/');
   });
-}
-
-init();
+})()
 
  let roomToSessionIdDictionary = {};
 
