@@ -8,7 +8,7 @@
 
 ## Prerequisites
 Before we get started, you will need the following: 
-1. A Vonage Video API account, which you can create for free here. 
+1. A Vonage Video API account, which you can create for free [here](https://tokbox.com/account). 
 2. Node.js installed and some basic javascript knowledge. 
 3. A Zendesk account with administrator rights. 
 4. The Zendesk App Tools (ZAT) installed. You can find more information [here](https://developer.zendesk.com/apps/docs/developer-guide/zat). 
