@@ -25,8 +25,8 @@ A detailed tutorial will be published in the Vonage developer blog.
 We love to hear from you so if you have questions, comments or find a bug in the project, let us know! You can either:
 
 * Open an issue on this repository
-* Tweet at us! We're [@NexmoDev on Twitter](https://twitter.com/NexmoDev)
-* Or [join the Nexmo Community Slack](https://developer.nexmo.com/community/slack)
+* Tweet at us! We're [@VonageDev on Twitter](https://twitter.com/VonageDev)
+* Or [join the Vonage Developer Community Slack](https://developer.nexmo.com/community/slack)
 
 ## Further Reading
 
